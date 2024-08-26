@@ -63,7 +63,7 @@ function checkUser(req, res, next) {
 app.use(checkUser);
 
 app.get('/', (req, res) => {
-    res.send({ message: 'Blogpost API 2.0' });
+    res.send({ message: 'Blogpost API 2' });
 });
 
 // auth routes
